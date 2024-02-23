@@ -5,7 +5,7 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 
 Nivel7::Nivel7() {
-	m_ball.IncrementarVelocidad(13.f);
+	m_ball.IncrementarVelocidad(7.f);
 	m_ball.setBallMoving(false);
 	
 	m_stats.IncrementarNivel();

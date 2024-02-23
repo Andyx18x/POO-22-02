@@ -50,7 +50,7 @@ void Ball::Rebotar(const FloatRect& playerBounds){ /// Este rebotar se utiliza p
 }
 void Ball::Rebotar(){ /// Este rebotar se utiliza para pelota - ladrillo 
 	m_speed.y = -m_speed.y;
-	m_speed.x -= std::rand()%100 / 50.f;
+	m_speed.x -= rand()%100 / 50.f;
 }
 
 void Ball::IncrementarVelocidad(int speed){
